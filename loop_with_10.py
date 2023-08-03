@@ -1,7 +1,5 @@
-i = 1
-while i <= 100:
+for i in range(1, 101):
     if i % 10 == 0:
         print(i)
     else:
         print(i, end=" ")
-    i = i + 1

@@ -14,7 +14,7 @@ try:
 
     print("Create new employee success")
 except pymysql.Error as e:
-    print("Error %s" % e.args[1])
+    print(f"Error {e.args[1]}")
 finally:
     # ปิดการ connection
     connection.close()

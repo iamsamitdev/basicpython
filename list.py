@@ -13,12 +13,7 @@ print(number)
 print("สมาชิกทั้งหมดของ number=", len(number))
 
 # การสร้าง list แบบว่าง (empty list)
-data = []
-
-# การเพิ่มสมาชิกเข้าไปใน list ว่าง
-data.append(10)
-data.append(15)
-data.append(20)
+data = [10, 15, 20]
 
 print(data)
 

@@ -5,8 +5,7 @@ def hello(name):
 
 # สร้างฟังก์ชันแบบมีการ Return Value
 def area(width, height):
-    total = width * height
-    return total
+    return width * height
 
 
 # เรียกใช้งานฟังก์ชัน hello()
